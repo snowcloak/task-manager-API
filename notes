@@ -1,0 +1,31 @@
+REST api
+
+Representational
+State
+Transfer
+
+Application
+Programming
+Interface
+
+The TASK resource (CRUD)
+> Create POST /tasks
+> Read GET /tasks or GET /tasks/:id
+> Update PATCH /tasks/:id
+> Delete DELETE /tasks/:id
+
+Request
+POSTS /tasks HTTP/1.1 -> request line
+<-- request headers -->
+Accept: application/json
+Connection: Keep-Alive
+Authorization: Bearer <string>
+
+<-- request body -->
+{"description": "Order new drill bits"}
+
+Response
+
+<-- response headers -->
+
+<-- response body -->
